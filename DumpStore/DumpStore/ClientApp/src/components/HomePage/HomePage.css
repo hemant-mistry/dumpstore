@@ -1,0 +1,63 @@
+﻿body {
+    background-color: black;
+}
+
+.allcards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Add some gap between cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+}
+
+.card {
+    background-color: #404040;
+    width: 15rem;
+    font-size: 10px;
+    margin: 2rem;
+    
+}
+
+
+.card-content{
+    display:flex;
+}
+
+.card-img-top {
+    width: 3rem;
+    height: 3rem;
+    
+}
+
+.card-title {
+    color: white;
+    font-size: 18px;
+    margin-top:1rem;
+    margin-left:1rem;
+}
+
+.card-text {
+    color: white;
+    margin-top:1rem;
+}
+
+.btn {
+    width: 4.5rem;
+    height: 1.8rem;
+    font-size: 10px;
+    margin-top: 0.5rem;
+}
+
+.app-header {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+.app-desc {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+ 
