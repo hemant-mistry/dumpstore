@@ -9,12 +9,15 @@
     flex-wrap: wrap; /* Allow cards to wrap to the next line */
 }
 
+.app-heading-container{
+    margin-bottom:2rem;
+}
+
 .card {
     background-color: #404040;
-    width: 15rem;
+    width: 14rem;
+    height: 10rem;
     font-size: 10px;
-    margin: 2rem;
-    
 }
 
 
@@ -23,15 +26,15 @@
 }
 
 .card-img-top {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     
 }
 
 .card-title {
     color: white;
-    font-size: 18px;
-    margin-top:1rem;
+    font-size: 12px;
+    margin-top:0.5rem;
     margin-left:1rem;
 }
 
@@ -41,11 +44,17 @@
 }
 
 .btn {
-    width: 4.5rem;
-    height: 1.8rem;
-    font-size: 10px;
-    margin-top: 0.5rem;
+    width: 4rem;
+    height: 1.2rem;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+    .btn p {
+        margin: 0; /* Remove default margin from the p tag */
+    }
 
 .app-header {
     margin-top: 2rem;
